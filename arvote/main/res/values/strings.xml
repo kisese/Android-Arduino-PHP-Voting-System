@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ArVote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registration">Registration</string>
+    <string name="about">About</string>
+    <string name="results">Results</string>
+    <string name="bar_graph">Bar Graph</string>
+    <string name="line_graph">Line Graph</string>
+    <string name="vote">Vote</string>
+    <string name="url">Send GET</string>
+
+
+</resources>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:paddingBottom="20dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="#e7e7e8"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageButton
+            android:id="@+id/page_reload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#e7e7e8"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_popup_sync"
+            />
+        <LinearLayout
+            android:id="@+id/a"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/card"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vote for A"
+                android:textColor="#808080"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Vote A"
+                android:id="@+id/vote_a"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                bootstrap:bb_type="info"
+                bootstrap:bb_roundedCorners="true"
+                ></com.beardedhen.androidbootstrap.BootstrapButton>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/b"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:background="@drawable/card"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vote for B"
+                android:textColor="#808080"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Vote B"
+                android:id="@+id/vote_b"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                bootstrap:bb_type="warning"
+                bootstrap:bb_roundedCorners="true"
+                ></com.beardedhen.androidbootstrap.BootstrapButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:background="@drawable/card"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vote for C"
+                android:textColor="#808080"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Vote C"
+                android:id="@+id/vote_c"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                bootstrap:bb_type="success"
+                bootstrap:bb_roundedCorners="true"
+                ></com.beardedhen.androidbootstrap.BootstrapButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/d"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:background="@drawable/card"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vote for D"
+                android:textColor="#808080"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Vote D"
+                android:id="@+id/vote_d"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                bootstrap:bb_type="danger"
+                bootstrap:bb_roundedCorners="true"
+                ></com.beardedhen.androidbootstrap.BootstrapButton>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/e"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:background="@drawable/card"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vote for E"
+                android:textColor="#808080"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Vote E"
+                android:id="@+id/vote_e"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                bootstrap:bb_type="warning"
+                bootstrap:bb_roundedCorners="true"
+                ></com.beardedhen.androidbootstrap.BootstrapButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/f"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:background="@drawable/card"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vote for F"
+                android:textColor="#808080"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Vote F"
+                android:id="@+id/vote_f"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                bootstrap:bb_type="info"
+                bootstrap:bb_roundedCorners="true"
+                ></com.beardedhen.androidbootstrap.BootstrapButton>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

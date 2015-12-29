@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/card"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:id="@+id/results_layout"
+        >
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/total_tally"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:id="@+id/result_male"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#808080"
+
+                />
+
+            <TextView
+                android:id="@+id/result_female"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#808080"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:src="@drawable/ic_popup_sync"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#808080"
+            />
+
+
+
+        <TextView
+            android:id="@+id/result_a"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="A:"
+            android:paddingLeft="0dp"
+            android:textColor="#1E90FF"
+
+            />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#808080"
+            />
+
+
+        <TextView
+            android:id="@+id/result_b"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="B:"
+            android:textColor="#1E90FF"
+            />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#808080"
+            />
+
+
+
+        <TextView
+            android:id="@+id/result_c"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="C:"
+            android:textColor="#1E90FF"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#808080"
+            />
+
+        <TextView
+            android:id="@+id/result_d"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="D:"
+            android:textColor="#1E90FF"
+            android:layout_marginRight="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#808080"
+            />
+
+        <TextView
+            android:id="@+id/result_e"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="E:"
+            android:textColor="#1E90FF"
+            android:layout_marginRight="10dp"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#808080"
+            />
+
+        <TextView
+            android:id="@+id/result_f"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="F:"
+            android:textColor="#1E90FF"
+            android:layout_marginRight="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#808080"
+            />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Change Vote"
+            android:id="@+id/change_vote"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            bootstrap:bb_type="info"
+            bootstrap:bb_roundedCorners="true"
+            ></com.beardedhen.androidbootstrap.BootstrapButton>
+
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Bar Graph"
+            android:id="@+id/bar_graph"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            bootstrap:bb_type="warning"
+            bootstrap:bb_roundedCorners="true"
+            ></com.beardedhen.androidbootstrap.BootstrapButton>
+
+    </LinearLayout>
+</ScrollView>

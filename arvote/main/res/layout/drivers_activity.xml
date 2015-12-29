@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/card"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Driver A"
+            android:id="@+id/vote_a"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            bootstrap:bb_type="info"
+            bootstrap:bb_roundedCorners="true"
+            ></com.beardedhen.androidbootstrap.BootstrapButton>
+
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Driver B"
+            android:id="@+id/vote_b"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            bootstrap:bb_type="warning"
+            bootstrap:bb_roundedCorners="true"
+            ></com.beardedhen.androidbootstrap.BootstrapButton>
+
+
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Driver C"
+            android:id="@+id/vote_c"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            bootstrap:bb_type="success"
+            bootstrap:bb_roundedCorners="true"
+            ></com.beardedhen.androidbootstrap.BootstrapButton>
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Driver D"
+            android:id="@+id/vote_d"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            bootstrap:bb_type="danger"
+            bootstrap:bb_roundedCorners="true"
+            ></com.beardedhen.androidbootstrap.BootstrapButton>
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Driver E"
+            android:id="@+id/vote_e"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            bootstrap:bb_type="warning"
+            bootstrap:bb_roundedCorners="true"
+            ></com.beardedhen.androidbootstrap.BootstrapButton>
+
+
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Driver F"
+            android:id="@+id/vote_f"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            bootstrap:bb_type="info"
+            bootstrap:bb_roundedCorners="true"
+            ></com.beardedhen.androidbootstrap.BootstrapButton>
+    </LinearLayout>
+</ScrollView>

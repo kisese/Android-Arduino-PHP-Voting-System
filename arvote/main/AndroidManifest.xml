@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="arvote.yhtosoft.kisese.com.arvote" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BarGraphActivity"
+            android:label="@string/bar_graph" ></activity>
+
+        <activity
+            android:name=".MainFragmentActivity"
+            android:label="@string/app_name" ></activity>
+
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/registration" ></activity>
+
+        <activity
+            android:name=".VotedForActivity"
+            android:label="@string/registration" ></activity>
+    </application>
+
+</manifest>

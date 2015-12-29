@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    >
+
+    <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+        android:id="@+id/login_circle"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        bootstrap:bt_width="150dp"
+        bootstrap:bt_height="150dp"
+        android:layout_gravity="center"
+        bootstrap:bct_image="@drawable/vote"
+        bootstrap:bct_size="small"
+        ></com.beardedhen.androidbootstrap.BootstrapCircleThumbnail>
+
+
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Hello User"
+        android:textSize="25dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/voted_for"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#1E90FF"
+        android:textSize="15dp"
+        android:text=""
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Change Vote"
+        android:id="@+id/change_vote"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        bootstrap:bb_type="info"
+        bootstrap:bb_roundedCorners="true"
+        >
+
+    </com.beardedhen.androidbootstrap.BootstrapButton>
+
+
+</LinearLayout>
